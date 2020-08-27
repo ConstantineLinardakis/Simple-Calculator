@@ -30,7 +30,7 @@ public class Main {
     if(selection==1){
     c=calc.add(a,b);
     System.out.println("Your Total Is :"+c);
-//Subtratction
+//Subtraction
     }else if(selection==2){
     c=calc.sub(a,b);
     System.out.println("Your Total Is :"+c);
