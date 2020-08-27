@@ -7,11 +7,11 @@ public class Main {
     System.out.println("Welcome to a Simple Calculator!");
     
     Scanner scan = new Scanner(System.in);
-    //Scanner restartScan = new Scanner(System.in); 
 
     int a,b,c,selection;
-    //String restart = ""; 
-    //restart = restartScan.nextLine();
+    //boolean y = true;
+    //boolean n = false;
+
     System.out.println("Please Enter Two Numbers Here:");
     a=scan.nextInt();
     b=scan.nextInt();
@@ -53,7 +53,7 @@ public class Main {
     if(selection==1){
       
     }else if(selection==2){
-      System.out.println("Okay thankyou for testing out my calculator!");
+      System.out.println("Okay thankyou for testing out my calculator! Have a nice day :) ");
     }
   }
 }
