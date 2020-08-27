@@ -9,9 +9,9 @@ public class Main {
     Scanner scan = new Scanner(System.in);
 
     int a,b,c,selection;
-    //boolean y = true;
-    //boolean n = false;
+    boolean y = true;
 
+    while(y==true){
     System.out.println("Please Enter Two Numbers Here:");
     a=scan.nextInt();
     b=scan.nextInt();
@@ -51,9 +51,11 @@ public class Main {
     System.out.println("Would you like to play again? (1=Yes) or (2=No)");
     selection=scan.nextInt();
     if(selection==1){
-      
-    }else if(selection==2){
+      y=true;
+    }else{
+      y = false;
       System.out.println("Okay thankyou for testing out my calculator! Have a nice day :) ");
+      }
     }
   }
 }
