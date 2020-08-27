@@ -8,11 +8,11 @@ public class Main {
     
     Scanner scan = new Scanner(System.in);
     int a,b,c,selection;
-    System.out.println("Please Enter Two Digits Here:");
+    System.out.println("Please Enter Two Numbers Here:");
     a=scan.nextInt();
     b=scan.nextInt();
 //Printing Selections
-    System.out.println("Make Your Selection :");
+    System.out.println("Make Your Selection (Type the number) :");
     System.out.println("1. Addition");
     System.out.println("2. Subtraction");
     System.out.println("3. Division");
